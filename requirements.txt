@@ -1,0 +1,14 @@
+# مكتبات أساسية للتطبيق
+streamlit==1.26.0
+numpy==1.26.5
+pandas==2.1.1
+
+# مكتبات Google GenAI
+google-genai==0.6.0
+
+# مكتبات مساعدة (إذا تحتاج logging وتحليل أسئلة)
+protobuf==4.24.0
+typing-extensions==4.8.0
+
+# أي مكتبات إضافية ممكن تحتاجها
+requests==2.31.0
