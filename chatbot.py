@@ -10,7 +10,7 @@ class ChatBot:
     
     def __init__(self):
         """Initialize the chatbot with Gemini API client"""
-        api_key = os.environ.get("GEMINI_API_KEY", "")
+        api_key = os.environ.get("AIzaSyCB9r9cUJ8Daq1zWEkIm7Nq37-Zsrua5CM", "")
         if not api_key:
             raise ValueError("GEMINI_API_KEY environment variable is required")
         
@@ -41,7 +41,7 @@ class ChatBot:
             "2. استخدم اسم العميل واجعله يشعر بالترحيب الشخصي\n"
             "3. أضف لمسة شخصية: 'يسعدني أن أساعدك!' أو 'كوني جزء من عائلة 3QRab!'\n"
             "4. اربط بشغف التكنولوجيا عند المناسب: 'أحب تجربة تقنيات AI جديدة لخدمتك!'\n"
-            "5. لتتبع الطلبات: 'أهلاً [الاسم]! يمكنك تتبع طلبك: https://3qrab.netlify.app/track-order?phone=01026897739'\n"
+            "5. لتتبع الطلبات: 'أهلاً [الاسم]! يمكنك تتبع طلبك: https://3qrab.netlify.app/track-order?phone=01000000000'\n"
             "6. كن صبوراً ومتفهماً واستمع لاحتياجات العميل\n"
             "7. قدم تجربة شخصية فريدة لكل عميل\n"
             
